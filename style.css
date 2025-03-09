@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right button {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.login {
+    background: #ff6b6b;
+    color: white;
+}
+
+.signup {
+    background: #acacac;
+    color: rgb(0, 0, 0);
+}
+
+.hero {
+    margin: 50px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: black;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #ff6b6b;
+}
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* جعل كل عمود يحتوي على صور بأحجام مختلفة */
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* تخصيص أحجام الصور */
+.gallery-item.large img {
+    width: 180px;
+    height: 250px;
+}
+
+.gallery-item.medium img {
+    width: 160px;
+    height: 200px;
+}
+
+.gallery-item.small img {
+    width: 140px;
+    height: 170px;
+}
+
+.gallery-item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    object-fit: cover;
+    border-radius: 10px;
+}
