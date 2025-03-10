@@ -1,3 +1,5 @@
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -59,14 +61,14 @@ nav {
     margin: auto;
 }
 
-‎/* جعل كل عمود يحتوي على صور بأحجام مختلفة */
+/* جعل كل عمود يحتوي على صور بأحجام مختلفة */
 .gallery-column {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-‎/* تخصيص أحجام الصور */
+/* تخصيص أحجام الصور */
 .gallery-item.large img {
     width: 180px;
     height: 250px;
@@ -91,4 +93,3 @@ nav {
     object-fit: cover;
     border-radius: 10px;
 }
-
